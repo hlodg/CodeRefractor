@@ -83,100 +83,25 @@ figure {
 }
 
 
-section {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-aside {
-    /* sidebar on benefits - asides*/
-    /* changed the label to aside inside of DIV */
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-aside div {
-    /* applies to blocks in the sidebar */
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* everything benefits div renamed to one tag and class
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* deleted the classes, and replaced them with a tag name in order to style every h3 instead of individually
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-aside img 
-{display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* made one class and tag for images and got rid of the other code
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}  */
-
-section div {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+main section h2{
+    /* any h2 that is a child of a section */
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 /* turned these into one class and tag
@@ -207,10 +132,94 @@ section div {
     color: #ffffff;
 }  */
 
-
-section img  {
+main img  {
     max-height: 200px;
 }
+
+aside {
+    /* sidebar on benefits - asides*/
+    /* changed the label to aside inside of DIV */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+aside section {
+    /* applies to blocks in the sidebar */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* everything benefits div renamed to one tag and class
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */
+
+
+
+/* deleted the classes, and replaced them with a tag name in order to style every h3 instead of individually
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+} */
+
+aside img 
+{display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+aside section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* made one class and tag for images and got rid of the other code
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}  */
+
+
 
 /* made this into all one class and tag with .content img
 .search-engine-optimization img  {
@@ -225,10 +234,6 @@ section img  {
     max-height: 200px;
 } */
 
-section h2{
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* Made into one class and tag with .content h2
 .search-engine-optimization h2 {
@@ -246,7 +251,7 @@ section h2{
     font-size: 36px;
 } */
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -254,6 +259,6 @@ section h2{
     
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
